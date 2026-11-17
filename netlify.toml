@@ -1,0 +1,5 @@
+[build]
+  command = "bun run build"
+  # On Netlify, Nitro auto-selects its Netlify preset: the SSR server is emitted
+  # as a function in .netlify/functions-internal and static client assets go to dist/.
+  publish = "dist"
